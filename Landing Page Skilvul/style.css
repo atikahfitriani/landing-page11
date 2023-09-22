@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+body {
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 120px;
+  background-color: #ffffff;
+}
+
+.navbar-logo{
+  height: 56px;
+  width: 120px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+
+.navbar-menu li a {
+  color: #070717;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navbar-menu li a:hover {
+  color: #036635;
+}
+
+
+.navbar-button {
+  padding: 10px;
+  padding-right: 24px;
+  padding-left: 24px;
+  background-color: #333;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar-button:hover {
+  background-color: #036635;
+}
+
+.header {
+  background-color: #FFFFFF;
+  padding: 20px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 550px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  margin-right: 32px;
+}
+
+.header-text h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #070717;
+  line-height: 120%;
+  margin-bottom: 24px;
+}
+
+.header-text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 160%;
+  }
+
+.header-image img {
+  width: 800px;
+}
+
+.header-button{
+  padding: 10px;
+  padding-right: 24px;
+  padding-left: 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 40px;
+  font-weight: 600;
+
+}
+
+.header-button:hover {
+  background-color: #00A376;
+}
+
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input {
+  display: flex;
+  align-items: center;
+}
+
+.form-input input[type="email"] {
+  padding: 12px 120px 12px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.subscribe-button {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  align-items: center;
+}
+
+.subscribe-button:hover {
+  background-color: #036635;
+  color: #ffffff;
+}
+
+
+ footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 80px 120px;
+  margin-top: 120px;
+
+  
+}
+
+.footer-left{
+  width: 400px;
+}
+
+.footer-right {
+display: flex;
+justify-content: space-between;
+}
+
+.footer-menu{
+  padding-right: 40px;
+}
+
+.footer-right h3 {
+  color: #070717;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.footer-left p {
+  color: #070717;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.footer-left img{
+    max-width: 100%;
+    height: 70px;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-right li {
+  margin-bottom: 10px;
+}
+
+.footer-right li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-right li a {
+  color: #66707A;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-right li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom{
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  background-color: #ECF1F6;
+  text-align: center;
+}
+
+/* Style untuk form */
+.form-daftar {
+    margin: 80px 120px;
+    background-color: #00A376;
+    padding: 80px;
+    color: #ffffff;
+    border-radius: 16px;
+}
+
+/* Style untuk judul form */
+.form-daftar-title h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.form-daftar-title p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.form-daftar input[type="text"], .form-daftar input[type="email"], .form-daftar input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 16px;
+  border: none;
+  font-size: 16px;
+}
+
+#check {
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+#status {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+
+#submit-form {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#submit-form:hover {
+  background-color: #f5118b;
+}
